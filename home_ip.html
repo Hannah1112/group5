@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CSS
+	============================================ -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-separate">Askme Mobile App</li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title-item">Connect</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-bell"></i>
+                                Notification</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-question"></i>
+                                Help</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-strong header__navbar-item-separate">
+                            Register</a></li>
+                        <li class="header__navbar-item header__navbar-item-strong">Sign in</a></li>
+                    </ul>
+                </nav>
+
+                <!-- header log, search, -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="">
+                            <img class="header__logo-link-img" src="assets/img/logo_ask.jpg" alt="Askme Mobile">
+                        </a>
+                    </div>
+
+                    <div class="hearder__search">
+                        <input type="text" class="hearder__search-input" placeholder="Search in the shop">
+
+                        <button class="hearder__search-btn">
+                            <i class=" hearder__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <div class="hearder__cart">
+                        <i class="hearder__cart-icon fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- menu bootstrap -->
+            <div class="section">
+                <div class="section__menu">
+                    <div class="section__menu-home">
+                        <button class="button section__menu-home-btn">
+                            <a class="link__a" href="index.html">HOME</a>
+                        </button>
+                    </div>
+
+                    <div class="section__menu-product">
+                        <button class="button btn-product dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCT
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home_ip.html">
+                                    <img class="dropdown-item-img" src="./assets/img/logo-iphone.png" alt="Iphone">
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="samsung.html">
+                                    <img src="./assets/img/samsungnew.png" alt="Samsung">
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="Oppo.html">
+                                    <img src="./assets/img/OPPO42-b_5.jpg" alt="Oppo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="section__menu-compare">
+                        <button class="button section__menu-compare-btn">
+                            <a class="link__a" href="">Compare</a>
+                        </button>
+                    </div>
+
+                    <div class="section__menu-contact">
+                        <button class="button section__menu-contact-btn">
+                            <a class="link__a" href="contact.html">Contact</a>
+                        </button>
+                    </div>
+
+                    <div class="section__menu-about-us">
+                        <button class="button section__menu-about-us-btn">
+                            <a class="link__a" href="">About us</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+
+        <div class="shop-area pt-95 pb-100">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg-9">
+                        
+                        <div class="shop-bottom-area mt-35">
+                            <div class="jump">
+                                <div id="product--list" class="product-list">
+                                    <!-- ------------------------------- -->
+                                    <!-- iphone-14-pro-max -->
+                                    <!-- -------------------------------------- -->
+                                    <div class="row">
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="male" data-size="size-s" data-styles="t-shirt"
+                                            data-brand="gucci">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="ip14promax_product.html">
+                                                        <img class="default-img"
+                                                            src="./assets/img/iphone-14-pro-max.jpg" width="400"
+                                                            height="300" ng-model="carModel.id" ng-bind="carModel.id">
+                                                    </a>
+                                                    <span class="purple">New</span>
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="8">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="male"><a class="t-shirt" href="./ip14promax_product.html"
+                                                            ng-model="carModel.brand" ng-bind="carModel.brand">Iphone 14
+                                                            pro max </a></h3>
+                                                    <h5 class="gucci">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-m" ng-model="carModel.price"
+                                                            ng-bind="'$' + carModel.price + '.00'">$1645.23</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- -------------------------------
+                                                    ip14 pro
+                                            -------------------------------         -->
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="female" data-size="size-l" data-styles="t-shirt"
+                                            data-brand="hm">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone14pro.html">
+                                                        <img class="default-img"
+                                                            src="./assets/img/iphone-14-pro-vang.jpg" width="400"
+                                                            height="300" ng-model="carModel.id1" ng-bind="carModel.id1">
+                                                    </a>
+                                                    <span class="purple">New</span>
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id1)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="4">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="female"><a class="t-shirt" href="iphone14pro.html"
+                                                            ng-model="carModel.brand1" ng-bind="carModel.brand1">Ihone
+                                                            14 rpo </a></h3>
+                                                    <h5 class="hm">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-l" ng-model="carModel.price1"
+                                                            ng-bind="'$' + carModel.price1 + '.00'">$27.00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip14 plus
+                                            -------------------------------         -->
+
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="both" data-size="size-s" data-styles="t-shirt"
+                                            data-brand="gucci">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone14plus.html">
+                                                        <img class="default-img" src="./assets/img/iPhone-14-plus1.jpg"
+                                                            width="400" height="300" ng-model="carModel.id2"
+                                                            ng-bind="carModel.id2">
+
+                                                    </a>
+                                                    <span class="purple">Best Seller</span>
+                                                    <div class="product-action">
+
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id2)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="7">Compare</button>
+
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="male"><a class="t-shirt" href="iphone14plus.html"
+                                                            ng-model="carModel.brand2" ng-bind="carModel.brand2">Iphone
+                                                            14 plus</a></h3>
+                                                    <h5 class="gucci">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-s" ng-model="carModel.price2"
+                                                            ng-bind="'$' + carModel.price2 + '.00'">$923.47</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip13
+                                            -------------------------------         -->
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="female" data-size="size-m" data-styles="dress"
+                                            data-brand="gucci">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone13.html">
+                                                        <img class="default-img" src="./assets/img/iphone-13.jpg"
+                                                            width="400" height="300" ng-model="carModel.id3"
+                                                            ng-bind="carModel.id3">
+
+                                                    </a>
+                                                    <span class="purple">Best Seller</span>
+                                                    <div class="product-action">
+
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id3)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="1">Compare</button>
+
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="female"><a href="iphone13.html"
+                                                            ng-model="carModel.brand3" ng-bind="carModel.brand3">Iphone
+                                                            13</a> </a></h3>
+                                                    <h5 class="gucci">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span ng-model="carModel.price3"
+                                                            ng-bind="'$' + carModel.price3 + '.00'">$719.11</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip13 mini
+                                            -------------------------------         -->
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="male" data-size="size-s" data-styles="vest"
+                                            data-brand="lv">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone13mini.html">
+                                                        <img class="default-img"
+                                                            src="./assets/img/iphone-13-mini-pink.jpg" width="400"
+                                                            height="300" ng-model="carModel.id4" ng-bind="carModel.id4">
+
+                                                    </a>
+                                                    <!-- <span class="purple"></span> -->
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id4)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="9">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="male"><a class="vest"
+                                                            href="iphone13mini.html" width="400"
+                                                            height="300" ng-model="carModel.brand4"
+                                                            ng-bind="carModel.brand4">Iphone 13 mini </a></h3>
+                                                    <h5 class="lv">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-s" ng-model="carModel.price4"
+                                                            ng-bind="'$' + carModel.price4 + '.00'">$679.56</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip12
+                                            -------------------------------         -->
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="both" data-size="size-l" data-styles="coat"
+                                            data-brand="lv">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone12.html">
+                                                        <img class="default-img" src="./assets/img/iphone-12.jpg"
+                                                            width="400" height="300" ng-model="carModel.id5"
+                                                            ng-bind="carModel.id5">
+
+                                                    </a>
+                                                    <!-- <span class="purple">Best Seller</span> -->
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id5)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="2">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="female"><a class="coat"
+                                                            href="iphone12.html" width="400"
+                                                            height="300" ng-model="carModel.brand5"
+                                                            ng-bind="carModel.brand5">Iphone 12</a></h3>
+                                                    <h5 class="lv">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-l" ng-model="carModel.price5"
+                                                            ng-bind="'$' + carModel.price5 + '.00'">$658.31</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- -------------------------------
+                                                    ip11
+                                            -------------------------------         -->
+
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="both" data-size="size-m" data-styles="coat"
+                                            data-brand="hm">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphone11.html">
+                                                        <img class="default-img" src="./assets/img/iphone-11.jpg"
+                                                            width="400" height="300" ng-model="carModel.id6"
+                                                            ng-bind="carModel.id6">
+
+                                                    </a>
+                                                    <!-- <span class="purple"></span> -->
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id6)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="5">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="male"><a class="nike"
+                                                            href="iphone11.html" width="400"
+                                                            height="300" ng-model="carModel.brand6"
+                                                            ng-bind="carModel.brand6">Iphone 11</a></h3>
+                                                    <h5 class="hm">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-l" ng-model="carModel.price6"
+                                                            ng-bind="'$' + carModel.price6 + '.00'">$454.36</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip xs max
+                                            -------------------------------         -->
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="male" data-size="size-m" data-styles="vest"
+                                            data-brand="gucci">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphonexsmax.html">
+                                                        <img class="default-img" src="./assets/img/iphone-xsmax.jpg"
+                                                            width="400" height="300" ng-model="carModel.id7"
+                                                            ng-bind="carModel.id7">
+
+                                                    </a>
+                                                    <!-- <span class="purple"></span> -->
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id7)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="3">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="female"><a class="vest"
+                                                            href="iphonexsmax.html" width="400"
+                                                            height="300" ng-model="carModel.brand7"
+                                                            ng-bind="carModel.brand7">Iphone XS max</a> </a></h3>
+                                                    <h5 class="gucci">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-s" ng-model="carModel.price7"
+                                                            ng-bind="'$' + carModel.price7 + '.00'">$305.56</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- -------------------------------
+                                                    ip xs
+                                            -------------------------------         -->
+                                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6 product--item"
+                                            data-categories="female" data-size="size-l" data-styles="coat"
+                                            data-brand="hm">
+                                            <div class="product-wrap mb-25">
+                                                <div class="product-img">
+                                                    <a href="iphonexs.html">
+                                                        <img class="default-img" src="assets/img/iphone-xs.jpg"
+                                                            width="400" height="300" ng-model="carModel.id8"
+                                                            ng-bind="carModel.id8">
+
+                                                    </a>
+                                                    <!-- <span class="purple"></span> -->
+                                                    <div class="product-action">
+                                                        <div class="pro-same-action pro-cart add-cart">
+                                                            <a title="Add To Cart" href="javascript:void(0)"
+                                                                ng-click="Add(carModel.id8)"><i class="pe-7s-cart"></i>
+                                                                Add to cart</a>
+                                                        </div>
+                                                        <button type="button" class="btn-compare"
+                                                            data="6">Compare</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-content text-center">
+                                                    <h3 class="male"><a class="nike"
+                                                            href="iphonexs.html" width="400"
+                                                            height="300" ng-model="carModel.brand8"
+                                                            ng-bind="carModel.brand8">Iphone xs</a></h3>
+                                                    <h5 class="hm">Iphone</h5>
+                                                    <div class="product-price">
+                                                        <span class="size-m" ng-model="carModel.price8"
+                                                            ng-bind="'$' + carModel.price8 + '.00'">$237.55</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                     <!-- -------------------------------
+                                                    footer
+                                            -------------------------------         -->
+
+                    <footer class="footer">
+                        <div class="footer__ctn">
+                            <div class="footer__ctn-logo">
+                                <a href="./index.html">
+                                    <img class="ctn-logo-img" src="assets/img/logo_ask.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="copyright ">Copyright
+                                &copy;
+                                <script>document.write(new Date().getFullYear());</script> Askme. All rights reserved.
+                            </div>
+
+                            <div class="header__navbar-item">
+                                <span class="header__navbar-title-item">Connect</span>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
+
+</body>
+
+</html>
